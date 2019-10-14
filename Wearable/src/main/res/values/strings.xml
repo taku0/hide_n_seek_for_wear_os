@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2019 taku0
+  Copyright 2017 The Android Open Source Project (for original WatchFace sample code)
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Hide \'n\' seek</string>
+
+  <string name="analog_complication">Hide \'n\' seek</string>
+
+  <string name="analog_complication_preference_file_key">org.tatapa.watchface.watchface.ANALOG_COMPLICATION_PREFERENCE_FILE_KEY</string>
+
+  <!-- preference key names -->
+  <string name="saved_second_hand_color">saved_second_hand_color</string>
+  <string name="saved_hour_numbers_color">saved_hour_numbers_color</string>
+  <string name="saved_ticks_color">saved_ticks_color</string>
+  <string name="saved_center_complication_color">saved_center_complication_color</string>
+  <string name="saved_other_complications_color">saved_other_complications_color</string>
+  <string name="saved_show_unread_notifications_pref">saved_show_unread_notifications</string>
+  <string name="saved_striking_interval_pref">saved_striking_interval_pref</string>
+  <string name="saved_striking_from_pref">saved_striking_from_pref</string>
+  <string name="saved_striking_until_pref">saved_striking_until_pref</string>
+
+  <!-- preference item labelss -->
+  <string name="config_second_hand_color_label">Second Hand Color</string>
+  <string name="config_hour_numbers_color_label">Hour Numbers Color</string>
+  <string name="config_ticks_color_label">Ticks Color</string>
+  <string name="config_center_complication_color_label">Center Complication Color</string>
+  <string name="config_other_complications_color_label">Other Complications Color</string>
+  <string name="config_unread_notifications_label">Show Unread Notifications</string>
+  <string name="config_striking_interval_label">Striking Interval</string>
+  <string name="config_striking_interval_none">None</string>
+  <string name="config_striking_from_label">Striking From</string>
+  <string name="config_striking_until_label">Striking Until</string>
+
+  <string name="analog_complication_config">Configuration</string>
+  <string name="add_complication">Add Complication</string>
+  <string name="edit_complication">Edit Complication <xliff:g id="name" example="World Clock">%1$s</xliff:g></string>
+</resources>
